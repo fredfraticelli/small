@@ -10,6 +10,6 @@ class MoneyTest extends PHPUnit_Framework_TestCase
         $a = new Money(1);
 
         // Assert
-        $this->assertEquals(2, $a->multiply());
+        $this->assertEquals(3, $a->multiply());
     }
 }

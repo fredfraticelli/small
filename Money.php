@@ -10,6 +10,6 @@ class Money
 
     public function multiply()
     {
-        return $this->amount * 2;
+        return $this->amount * 3;
     }
 }
